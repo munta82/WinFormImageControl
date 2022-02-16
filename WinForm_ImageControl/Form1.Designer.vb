@@ -48,10 +48,10 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Location = New System.Drawing.Point(546, 541)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button1.Location = New System.Drawing.Point(607, 676)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 35)
+        Me.Button1.Size = New System.Drawing.Size(124, 44)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Invert Colors"
         Me.Button1.UseVisualStyleBackColor = True
@@ -59,10 +59,10 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button2.Location = New System.Drawing.Point(546, 496)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button2.Location = New System.Drawing.Point(607, 620)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 35)
+        Me.Button2.Size = New System.Drawing.Size(124, 44)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Zoom In"
         Me.Button2.UseVisualStyleBackColor = True
@@ -70,10 +70,10 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button3.Location = New System.Drawing.Point(546, 452)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button3.Location = New System.Drawing.Point(607, 565)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(112, 35)
+        Me.Button3.Size = New System.Drawing.Size(124, 44)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "Zoom Out"
         Me.Button3.UseVisualStyleBackColor = True
@@ -83,19 +83,19 @@ Partial Class Form1
         Me.ComboBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(24, 455)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ComboBox1.Location = New System.Drawing.Point(27, 569)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(324, 28)
+        Me.ComboBox1.Size = New System.Drawing.Size(360, 33)
         Me.ComboBox1.TabIndex = 4
         '
         'Button4
         '
         Me.Button4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button4.Location = New System.Drawing.Point(358, 496)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button4.Location = New System.Drawing.Point(398, 620)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(178, 35)
+        Me.Button4.Size = New System.Drawing.Size(198, 44)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "Unload Image"
         Me.Button4.UseVisualStyleBackColor = True
@@ -104,10 +104,10 @@ Partial Class Form1
         '
         Me.CheckBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(358, 533)
-        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.CheckBox2.Location = New System.Drawing.Point(398, 667)
+        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(127, 24)
+        Me.CheckBox2.Size = New System.Drawing.Size(138, 29)
         Me.CheckBox2.TabIndex = 6
         Me.CheckBox2.Text = "Stretch to Fit"
         Me.CheckBox2.UseVisualStyleBackColor = True
@@ -115,10 +115,10 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button5.Location = New System.Drawing.Point(546, 586)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button5.Location = New System.Drawing.Point(607, 732)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(112, 35)
+        Me.Button5.Size = New System.Drawing.Size(124, 44)
         Me.Button5.TabIndex = 7
         Me.Button5.Text = "Fit Image"
         Me.Button5.UseVisualStyleBackColor = True
@@ -126,10 +126,10 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button6.Location = New System.Drawing.Point(358, 452)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button6.Location = New System.Drawing.Point(398, 565)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(178, 35)
+        Me.Button6.Size = New System.Drawing.Size(198, 44)
         Me.Button6.TabIndex = 8
         Me.Button6.Text = "Load Image"
         Me.Button6.UseVisualStyleBackColor = True
@@ -138,58 +138,59 @@ Partial Class Form1
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(24, 435)
+        Me.Label1.Location = New System.Drawing.Point(27, 544)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(136, 20)
+        Me.Label1.Size = New System.Drawing.Size(151, 25)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Rotate Flip Image"
         '
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(24, 29)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.RadioButton1.Location = New System.Drawing.Point(27, 36)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(106, 24)
+        Me.RadioButton1.Size = New System.Drawing.Size(117, 29)
         Me.RadioButton1.TabIndex = 10
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Pan Mode"
         Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RadioButton1.Visible = False
         '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(144, 29)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.RadioButton2.Location = New System.Drawing.Point(160, 36)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(135, 24)
+        Me.RadioButton2.Size = New System.Drawing.Size(156, 29)
         Me.RadioButton2.TabIndex = 11
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Window Zoom"
         Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RadioButton2.Visible = False
         '
         'GroupBox1
         '
         Me.GroupBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Location = New System.Drawing.Point(24, 496)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox1.Location = New System.Drawing.Point(27, 620)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.GroupBox1.Size = New System.Drawing.Size(326, 74)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 6, 4, 6)
+        Me.GroupBox1.Size = New System.Drawing.Size(362, 92)
         Me.GroupBox1.TabIndex = 12
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Left Mouse button"
         '
         'Button7
         '
         Me.Button7.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button7.Location = New System.Drawing.Point(546, 627)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button7.Location = New System.Drawing.Point(607, 784)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(112, 35)
+        Me.Button7.Size = New System.Drawing.Size(124, 44)
         Me.Button7.TabIndex = 7
         Me.Button7.Text = "Actual Pixels"
         Me.Button7.UseVisualStyleBackColor = True
@@ -201,14 +202,14 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ImageControl1.Image = Nothing
         Me.ImageControl1.initialimage = Nothing
-        Me.ImageControl1.Location = New System.Drawing.Point(18, 18)
-        Me.ImageControl1.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.ImageControl1.Location = New System.Drawing.Point(20, 22)
+        Me.ImageControl1.Margin = New System.Windows.Forms.Padding(7, 10, 7, 10)
         Me.ImageControl1.Name = "ImageControl1"
         Me.ImageControl1.Origin = New System.Drawing.Point(0, 0)
         Me.ImageControl1.PanButton = System.Windows.Forms.MouseButtons.Left
         Me.ImageControl1.PanMode = True
         Me.ImageControl1.ScrollbarsVisible = True
-        Me.ImageControl1.Size = New System.Drawing.Size(638, 412)
+        Me.ImageControl1.Size = New System.Drawing.Size(709, 515)
         Me.ImageControl1.StretchImageToFit = False
         Me.ImageControl1.TabIndex = 0
         Me.ImageControl1.ZoomFactor = 1.0R
@@ -217,9 +218,10 @@ Partial Class Form1
         'btnPrev
         '
         Me.btnPrev.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnPrev.Location = New System.Drawing.Point(28, 627)
+        Me.btnPrev.Location = New System.Drawing.Point(31, 784)
+        Me.btnPrev.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnPrev.Name = "btnPrev"
-        Me.btnPrev.Size = New System.Drawing.Size(80, 35)
+        Me.btnPrev.Size = New System.Drawing.Size(89, 44)
         Me.btnPrev.TabIndex = 13
         Me.btnPrev.Text = "<< Prev"
         Me.btnPrev.UseVisualStyleBackColor = True
@@ -227,9 +229,10 @@ Partial Class Form1
         'btnNext
         '
         Me.btnNext.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnNext.Location = New System.Drawing.Point(123, 628)
+        Me.btnNext.Location = New System.Drawing.Point(137, 785)
+        Me.btnNext.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(119, 35)
+        Me.btnNext.Size = New System.Drawing.Size(132, 44)
         Me.btnNext.TabIndex = 14
         Me.btnNext.Text = "Next >>"
         Me.btnNext.UseVisualStyleBackColor = True
@@ -237,9 +240,10 @@ Partial Class Form1
         'btnMove
         '
         Me.btnMove.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnMove.Location = New System.Drawing.Point(461, 628)
+        Me.btnMove.Location = New System.Drawing.Point(512, 785)
+        Me.btnMove.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnMove.Name = "btnMove"
-        Me.btnMove.Size = New System.Drawing.Size(75, 33)
+        Me.btnMove.Size = New System.Drawing.Size(83, 41)
         Me.btnMove.TabIndex = 15
         Me.btnMove.Text = "Copy"
         Me.btnMove.UseVisualStyleBackColor = True
@@ -248,26 +252,28 @@ Partial Class Form1
         '
         Me.lblDestination.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.lblDestination.AutoSize = True
-        Me.lblDestination.Location = New System.Drawing.Point(24, 593)
+        Me.lblDestination.Location = New System.Drawing.Point(27, 741)
         Me.lblDestination.Name = "lblDestination"
-        Me.lblDestination.Size = New System.Drawing.Size(139, 20)
+        Me.lblDestination.Size = New System.Drawing.Size(157, 25)
         Me.lblDestination.TabIndex = 16
         Me.lblDestination.Text = "Destination Folder"
         '
         'TextBox1
         '
         Me.TextBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(168, 590)
+        Me.TextBox1.Location = New System.Drawing.Point(187, 738)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(368, 26)
+        Me.TextBox1.Size = New System.Drawing.Size(408, 31)
         Me.TextBox1.TabIndex = 17
         '
         'btnSelectFolder
         '
         Me.btnSelectFolder.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnSelectFolder.Location = New System.Drawing.Point(259, 630)
+        Me.btnSelectFolder.Location = New System.Drawing.Point(288, 788)
+        Me.btnSelectFolder.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSelectFolder.Name = "btnSelectFolder"
-        Me.btnSelectFolder.Size = New System.Drawing.Size(196, 33)
+        Me.btnSelectFolder.Size = New System.Drawing.Size(218, 41)
         Me.btnSelectFolder.TabIndex = 18
         Me.btnSelectFolder.Text = "Select Destination"
         Me.btnSelectFolder.UseVisualStyleBackColor = True
@@ -276,17 +282,17 @@ Partial Class Form1
         '
         Me.lblFileName.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.lblFileName.AutoSize = True
-        Me.lblFileName.Location = New System.Drawing.Point(365, 562)
+        Me.lblFileName.Location = New System.Drawing.Point(406, 702)
         Me.lblFileName.Name = "lblFileName"
-        Me.lblFileName.Size = New System.Drawing.Size(0, 20)
+        Me.lblFileName.Size = New System.Drawing.Size(0, 25)
         Me.lblFileName.TabIndex = 19
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(674, 678)
+        Me.ClientSize = New System.Drawing.Size(749, 848)
         Me.Controls.Add(Me.lblFileName)
         Me.Controls.Add(Me.btnSelectFolder)
         Me.Controls.Add(Me.TextBox1)
@@ -306,7 +312,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ImageControl1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
         Me.Name = "Form1"
         Me.Text = "Image Control "
         Me.GroupBox1.ResumeLayout(False)

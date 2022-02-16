@@ -1,3 +1,4 @@
+Imports System.IO
 Imports System.Linq
 
 Public Class Form1
@@ -46,7 +47,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
-
+        Dim str As String = ""
         With OpenFileDialog1
             Dim bmp As Bitmap
             .CheckFileExists = True
@@ -59,11 +60,16 @@ Public Class Form1
                 Me.ImageControl1.Image = bmp
 
                 'ImageControl1.Image = New Bitmap(dlg.FileName)
-                _availableImages = New AvailableImages(System.IO.Directory.GetFiles(System.IO.Path.GetDirectoryName(OpenFileDialog1.FileName)).Where(Function(m) m.ToUpper().EndsWith("JPG") OrElse m.ToUpper().EndsWith("BMP") OrElse m.ToUpper().EndsWith("GIF") OrElse m.ToUpper().EndsWith("PNG")), OpenFileDialog1.FileName)
+                _availableImages = New AvailableImages(System.IO.Directory.GetFiles(System.IO.Path.GetDirectoryName(OpenFileDialog1.FileName)).OrderBy(Function(f) New FileInfo(f).Name) _
+                    .Where(Function(m) m.ToUpper().EndsWith("JPG") _
+                    OrElse m.ToUpper().EndsWith("JPEG") _
+                    OrElse m.ToUpper().EndsWith("BMP") _
+                    OrElse m.ToUpper().EndsWith("PNG")), OpenFileDialog1.FileName)
 
             End If
         End With
 
+        ' OrElse m.ToUpper().EndsWith("GIF") _
         'Using dlg As OpenFileDialog = New OpenFileDialog()
         '    dlg.Title = "Open Image"
         '    dlg.Filter = "All|*.jpg;*.bmp;*.gif;*.png|JPeg Image|*.jpg|Bitmap Image|*.bmp|Gif Image|*.gif|PNG Image|*.png"
@@ -153,7 +159,7 @@ Public Class AvailableImages
     Public _selectedImage As Integer
     Public selectedImageFilePath As String
     Public Sub New(ByVal images As IEnumerable(Of String), ByVal Optional selectedImage As String = Nothing)
-        _images = images.ToList()
+        _images = images.ToList() '.OrderBy(Function(f) New FileInfo(f).Name)
         _selectedImage = If(selectedImage Is Nothing, 0, _images.IndexOf(selectedImage))
     End Sub
 
