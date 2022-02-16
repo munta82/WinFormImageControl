@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WinForm_ImageControl/1.0.0": {
+        "dependencies": {
+          "WinForm_Services": "1.0.0"
+        },
+        "runtime": {
+          "WinForm_ImageControl.dll": {}
+        }
+      },
+      "WinForm_Services/1.0.0": {
+        "runtime": {
+          "WinForm_Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinForm_ImageControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinForm_Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
