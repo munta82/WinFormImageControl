@@ -4,8 +4,11 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>WinForm_Services</RootNamespace>
-    <StartupObject>WinForm_Services.Form1</StartupObject>
+    <StartupObject>WinForm_Services.FormDoNotDelete</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
+	<RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
